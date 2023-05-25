@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="row-one">
+    <div class="col-one-row-one">
+      <img src="/assets/img/logo.svg">
+    </div>
+    <div class="col-two-row-one">
+      <img src="/assets/img/Group 1931.svg">
+    </div>
+
+    <div class="col-three-row-one">
+      <h1 class="service">Service</h1>
+      <p class="service-p">An expert team help you to analyze your polticalt power.An expert team .</p>
+    </div>
+
+    <div class="col-four-row-one">
+      <p class="cr">©2020 All Rights Reserved. PT Indonesia Indicator</p>
+    </div>
+    <div class="row-two">
+      <div class="col-one-row-one">
+        <h1 class="welcome">Welcome to Logo ipsum</h1>
+        <div class="signup">
+          <h3>Dont have account?</h3>
+          <a href="/" class="signup-1">Sign Up</a>
+        </div>
+        <div class="login">
+          <form (ngSubmit)="login()">
+            <div>
+              <label for="username">Username<a>*</a></label>
+              <input type="text" id="username" [(ngModel)]="username" name="username" required>
+            </div>
+            <div>
+              <label for="password">Password<a>*</a></label>
+              <input type="password" id="password" [(ngModel)]="password" name="password" required>
+            </div>
+            <div class="checkbox">
+              <div class="unchecked"></div>
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"><label class="container">Remember me</label></span>
+            </div>
+
+            <button type="submit" id="submit">login</button>
+          </form>
+
+          <div *ngIf="invalidCredential">
+            Kesalahan Login, Password / Email mungkin salah
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>

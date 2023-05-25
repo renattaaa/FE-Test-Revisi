@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&family=Rubik&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Rubik';
+}
+
+.logo {
+  color: #fff;
+  width: 132px;
+  height: 32.17px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 250px;
+  height: 100%;
+  background: #2A3042;
+}
+
+.sidebar ul {
+  margin-left: 25px;
+  display: block;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.06em;
+  text-align: left;
+
+  /* identical to box height */
+  color: #A6B0CF;
+  letter-spacing: 0.06em;
+
+}
+
+.sidebar ul a {
+  margin-left: 25px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 3;
+  letter-spacing: 0.06em;
+  color: #A6B0CF;
+}
+
+.top-bar {
+  position: absolute;
+  height: 64px;
+  left: 240px;
+  top: 0px;
+
+  background: #FFFFFF;
+}
+
+.top-bar .subject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+}
+
+.top-bar .subject-right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  position: absolute;
+  height: 100%;
+  left: 800px;
+  top: 12px;
+}
+
+.header {
+  position: absolute;
+  width: 219px;
+  height: 24px;
+  left: 270px;
+  top: 90px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+
+  color: #0B132A;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  position: absolute;
+  width: 203px;
+  height: 20px;
+  left: 286px;
+  top: 155px;
+}
+
+.rectangle-search {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.search .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.search-text {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+
+  color: #4F5665;
+}
+
+.data-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 270px;
+  top: 208px;
+}
+
+.rectangle-data-bar {
+  height: 16px;
+  width: 950px;
+  padding: 13px;
+  border-radius: 4px;
+  background: #F5F6FA;
+}
+
+.name {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+  padding: -10px;
+}
+
+.name ul {
+  padding: 0px -13px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+
+.name ul li {
+  float: left;
+}
+
+.name ul li a {
+  color: #000;
+  display: block;
+  padding: 1px 52px;
+  text-decoration: none;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  position: absolute;
+  width: 1141px;
+  height: 498px;
+  left: 335px;
+  top: 275px;
+}
+
+.rectangle-user-1 {
+  height: 44px;
+  width: 921px;
+  padding: 15px;
+  border-radius: 0px;
+  background: #F5F6FA;
+}
+
+.users .user-1 {
+  margin-block: -15px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  padding: -10px;
+}
+
+.user-1 ul {
+  padding: 0px -13px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+
+.user-1 ul li {
+  float: left;
+}
+
+.user-1 ul li a {
+  color: #000;
+  display: block;
+  padding: 1px 34px;
+  text-decoration: none;
+}
+
+.showing {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 270px;
+  top: 864px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 50px;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+
+  color: #4F5665;
+}
+
+.next {
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  left: 900px;
+  top: 871px;
+}
+
+.text {
+  position: absolute;
+  width: 100px;
+  height: 14px;
+  left: 1050px;
+  top: 95px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 110%;
+  /* or 14px */
+
+  letter-spacing: 0.06em;
+
+  color: #4F5665;
+}
+
+.text-1 {
+  font-weight: 200;
+}
+
+.text-2 {
+  font-weight: 600;
+}
+
+.add-user {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 24px;
+  gap: 0px;
+  position: absolute;
+  width: 70px;
+  height: 18px;
+  left: 1110px;
+  top: 130px;
+  background: #3A70D9;
+  border-radius: 5px;
+}
+
+.add-user .add {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}

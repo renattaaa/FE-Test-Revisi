@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&family=Rubik&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.x404-not-found {
+  align-items: flex-start;
+  background-color: white;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 221px;
+  height: 1024px;
+  padding: 25px 150px;
+  width: 100%;
+}
+
+.flex-row {
+  position: relative;
+  align-items: center;
+  display: flex;
+  gap: 360px;
+}
+
+.logo {
+  margin-bottom: 925px;
+  width: 110px;
+  margin-left: -64px;
+  height: 51.17px;
+}
+
+nav {
+  font-family: 'Rubik';
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: -0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 225px;
+  font-size: 15px;
+  top: -15px;
+}
+
+nav ul {
+  margin-left: -51px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li:hover a {
+  color: #000;
+}
+
+nav ul li a {
+  display: block;
+  padding: 31px 18px;
+  text-decoration: none;
+}
+
+.nav-home {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.sign-in {
+  font-family: 'Rubik';
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+
+  align-self: center;
+  color: #0B132A;
+  margin-bottom: 6px;
+  margin-left: 103px;
+  min-height: 19px;
+  min-width: 54px;
+}
+
+.sign-up {
+  font-family: 'Rubik';
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  color: #2161D5;
+
+  margin-top: -9px;
+  border-width: 10px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-color: #2161D5;
+  border-radius: 55px;
+  gap: 10px;
+  top: 20px;
+  margin-left: -14px;
+  padding: 9px 33px;
+}
+
+.flex-row {
+  left: 0px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  min-width: 100%;
+}
+
+.flex-row-1 {
+  font-family: 'Rubik';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 95px 5px;
+  gap: 19px;
+  position: absolute;
+  width: 305px;
+  height: 223px;
+  left: 19px;
+  top: 122px;
+}
+
+.x404-image {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 374px;
+  margin-top: -98px;
+}
+
+.oops-2 {
+  margin-top: 10px;
+  width: 294px;
+  height: 30px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+
+  color: #4F5665;
+}

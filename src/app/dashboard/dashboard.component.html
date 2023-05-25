@@ -1,0 +1,50 @@
+<div *ngIf="isLogin">
+  <div class="user-management">
+    <div class="top-bar">
+      <div class="subject">
+        <img src="/assets/img/u_subject.svg" alt="">
+      </div>
+      <div class="subject-right">
+        <img src="/assets/img/subject-2.svg" alt="">
+      </div>
+    </div>
+    <div class="frame">
+      <img src="/assets/img/dashboard-frame.svg" alt="">
+    </div>
+    <div class="frame-2">
+      <img src="/assets/img/frame-2.svg" alt="">
+    </div>
+    <div class="frame-3">
+      <img src="/assets/img/frame-3.svg" alt="">
+    </div>
+    <div class="frame-4">
+      <img src="/assets/img/frame-4.svg" alt="">
+    </div>
+
+    <div class="sidebar">
+        <div class="logo">
+          <img class="logo" src="/assets/img/logo-dashboard.svg" alt="">
+        </div>
+        <ul>
+          <li><a href="/dashboard">Dashboard</a></li>
+          <h3>DATA</h3>
+          <li><a href="/dashboard">Visualization</a></li>
+          <li><a href="/dashboard">Case</a></li>
+          <li><a href="/dashboard">Data Set</a></li>
+          <li><a href="/dashboard" style="color: white;">Data Source</a></li>
+          <li><a href="/dashboard">Connection</a></li>
+          <h3>ASSETS</h3>
+          <li><a href="/dashboard">Icon</a></li>
+          <li><a href="/dashboard">Image</a></li>
+          <h3>AUTHORIZATION</h3>
+          <li><a href="/dashboard">Account</a></li>
+          <li><a href="/dashboard">Role</a></li>
+          <li><a href="/dashboard">Workspace</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div *ngIf="!isLogin">
+	<p>Please log in to access the dashboard.</p>
+</div>

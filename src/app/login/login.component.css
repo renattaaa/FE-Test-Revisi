@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&family=Rubik&display=swap');
+
+
+/* LOGIN START */
+.row-one {
+  position: absolute;
+  width: 413px;
+  height: 803px;
+  left: -1px;
+  top: 0px;
+  background: #F5F6FA;
+}
+
+.col-two-row-one img {
+  position: absolute;
+  width: 355px;
+  height: 340px;
+  left: 9px;
+  top: 162px;
+}
+
+.row-one .col-one-row-one {
+  position: absolute;
+  width: 132px;
+  height: 32.17px;
+  left: 59px;
+  top: 56px;
+}
+
+.row-one .col-three-row-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 424px;
+  height: 94px;
+  left: 45px;
+  top: 624px;
+}
+
+.service {
+  width: 177px;
+  height: 8px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  font-weight: 600;
+  line-height: 30px;
+  color: #0B132A;
+  mix-blend-mode: normal;
+  flex: none;
+  margin-top: -100px;
+  order: 0;
+  flex-grow: 0;
+}
+
+.service-p {
+  width: 312px;
+  margin-right: 121px;
+  height: 105px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  color: #4F5665;
+  mix-blend-mode: normal;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.row-one .col-four-row-one {
+  position: absolute;
+  width: 258px;
+  height: 28px;
+  left: 26px;
+  top: 731px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 10px;
+  line-height: 22px;
+  text-align: center;
+  color: #56595fc7;
+}
+
+.row-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 463px;
+  height: 441px;
+  left: 890px;
+  top: 200px;
+}
+
+.row-two .col-one-row-one {
+  padding: 0px;
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+  left: -249px;
+  top: -21px;
+  bottom: 199px;
+}
+
+.row-two .welcome {
+  width: 347px;
+  height: 35px;
+  margin-bottom: -7px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.85);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.row-two .signup {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 23px;
+  width: 350px;
+  height: 26px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 26px;
+}
+
+.row-two .signup-1 {
+  color: #2161D5;
+  font-family: 'Rubik';
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-top: 18px;
+  line-height: normal;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.row-two .login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  width: 463px;
+  height: 208px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+label {
+  font-family: 'Rubik';
+  font-style: bold;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+label .a {
+  font-family: 'Rubik';
+  color: blue;
+
+}
+
+.login #username {
+  margin-bottom: 10px;
+
+  box-sizing: border-box;
+
+  width: 463px;
+  height: 60px;
+
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.login #password {
+  box-sizing: border-box;
+
+  width: 463px;
+  height: 60px;
+
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.login .checkbox {
+  height: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.login #remember-me {
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 35px;
+  padding: 0px;
+  gap: 12px;
+
+  width: 346px;
+  height: 18px;
+
+  font-family: 'Rubik';
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+.login #submit {
+  color: white;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px;
+  gap: 4px;
+
+  width: 463px;
+  height: 56px;
+
+  background: #2161D5;
+  border: none;
+  border-radius: 6px;
+
+  font-family: 'Rubik';
+  font-style: normal, #fff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* LOGIN END */

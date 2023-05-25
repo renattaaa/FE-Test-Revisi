@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&family=Rubik&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo {
+  color: #fff;
+  width: 132px;
+  height: 32.17px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 250px;
+  height: 100%;
+  background: #2A3042;
+}
+
+.sidebar ul {
+  margin-left: 25px;
+  display: block;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.06em;
+  text-align: left;
+
+  /* identical to box height */
+  color: #A6B0CF;
+  letter-spacing: 0.06em;
+
+}
+
+.sidebar ul a {
+  margin-left: 25px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 3;
+  letter-spacing: 0.06em;
+  color: #A6B0CF;
+}
+
+.top-bar {
+  position: absolute;
+  height: 64px;
+  left: 270px;
+  top: 0px;
+
+  background: #FFFFFF;
+}
+
+.top-bar .subject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+}
+
+.top-bar .subject-right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  position: absolute;
+  height: 100%;
+  left: 800px;
+  top: 12px;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 193px;
+  height: 18px;
+  left: 270px;
+  margin-top: 103px;
+
+}
+
+.frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 200px;
+  height: 88px;
+  left: 1040px;
+  top: 68px;
+
+  background: #FFFFFF;
+  box-shadow: 20px 12px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.frame-3 {
+  position: absolute;
+  width: 557px;
+  height: 329px;
+  left: 270px;
+  top: 166px;
+}
+
+.frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+
+  position: absolute;
+  width: 557px;
+  height: 329px;
+  left: 853px;
+  top: 166px;
+}

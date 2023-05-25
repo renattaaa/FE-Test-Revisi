@@ -1,0 +1,196 @@
+<div *ngIf="isLogin">
+  <div class="user-management">
+    <div class="top-bar">
+      <div class="subject">
+        <img src="/assets/img/u_subject.svg" alt="">
+      </div>
+      <div class="subject-right">
+        <img src="/assets/img/subject-2.svg" alt="">
+      </div>
+    </div>
+    <div class="text">
+      <h3 class="text-1">
+        Logoipsum<span class="text-2">/Usermanagement</span></h3>
+    </div>
+    <div class="add-user">
+      <a style="color: white;" href="/create">Add data</a>
+    </div>
+    <div class="search">
+      <div class="icon">
+        <img src="/assets/img/fi_search.svg" alt="">
+      </div>
+      <div class="rectangle-search">
+        <h3 class="search-text">Search user management</h3>
+      </div>
+    </div>
+    <div class="data-bar">
+      <div class="rectangle-data-bar">
+        <div class="name">
+          <ul>
+            <li><a>Name</a></li>
+            <li><a>Username</a></li>
+            <li><a>Email</a></li>
+            <li><a>Gender</a></li>
+            <li><a>Last Update</a></li>
+            <li><a>Action</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="users">
+      <div class="rectangle-user-1">
+        <div class="user-1">
+          <div class="user-image">
+            <img src="/assets/img/lorem.jpg" alt="" class="">
+          </div>
+          <ul>
+            <li><a>Kristin Watson</a></li>
+            <li><a>@kristinwatson</a></li>
+            <li><a>kristinwatson@gmail.com</a></li>
+            <li><a>Female</a></li>
+            <li><a>Jun 15, 08:30:04</a></li>
+            <li><a>...</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rectangle-user-1">
+        <div class="user-1">
+          <div class="user-image">
+            <img src="/assets/img/lorem.jpg" alt="" class="">
+          </div>
+          <ul>
+            <li><a>Kristin Watson</a></li>
+            <li><a>@kristinwatson</a></li>
+            <li><a>kristinwatson@gmail.com</a></li>
+            <li><a>Female</a></li>
+            <li><a>Jun 15, 08:30:04</a></li>
+            <li><a>...</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rectangle-user-1">
+        <div class="user-1">
+          <div class="user-image">
+            <img src="/assets/img/lorem.jpg" alt="" class="">
+          </div>
+          <ul>
+            <li><a>Kristin Watson</a></li>
+            <li><a>@kristinwatson</a></li>
+            <li><a>kristinwatson@gmail.com</a></li>
+            <li><a>Female</a></li>
+            <li><a>Jun 15, 08:30:04</a></li>
+            <li><a>...</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rectangle-user-1">
+        <div class="user-1">
+          <div class="user-image">
+            <img src="/assets/img/lorem.jpg" alt="" class="">
+          </div>
+          <ul>
+            <li><a>Kristin Watson</a></li>
+            <li><a>@kristinwatson</a></li>
+            <li><a>kristinwatson@gmail.com</a></li>
+            <li><a>Female</a></li>
+            <li><a>Jun 15, 08:30:04</a></li>
+            <li><a>...</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rectangle-user-1">
+        <div class="user-1">
+          <div class="user-image">
+            <img src="/assets/img/lorem.jpg" alt="" class="">
+          </div>
+          <ul>
+            <li><a>Kristin Watson</a></li>
+            <li><a>@kristinwatson</a></li>
+            <li><a>kristinwatson@gmail.com</a></li>
+            <li><a>Female</a></li>
+            <li><a>Jun 15, 08:30:04</a></li>
+            <li><a>...</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rectangle-user-1">
+        <div class="user-1">
+          <div class="user-image">
+            <img src="/assets/img/lorem.jpg" alt="" class="">
+          </div>
+          <ul>
+            <li><a>Kristin Watson</a></li>
+            <li><a>@kristinwatson</a></li>
+            <li><a>kristinwatson@gmail.com</a></li>
+            <li><a>Female</a></li>
+            <li><a>Jun 15, 08:30:04</a></li>
+            <li><a>...</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="showing">
+      <h3>Showing 7 of 50 User</h3>
+    </div>
+    <div class="next">
+      <img src="/assets/img/next.svg" alt="">
+    </div>
+    <div class="rectangle-create"></div>
+    <div class="create">
+      <h1 class="h1-create">User Management</h1>
+      <p class="p-create">If you need more info, please check Project Guidelines.</p>
+      <div class="form-create">
+        <form>
+          <div>
+            <label for="name">Name <i style="color: #FD524E;">*</i></label>
+            <input type="text" id="name" [(ngModel)]="name" name="name" placeholder="Input Name" required>
+          </div>
+          <div>
+            <label for="username">Username <i style="color: #FD524E;">*</i></label>
+            <input type="text" id="username" [(ngModel)]="username" name="username" placeholder="Input Username" required>
+          </div>
+          <div>
+            <label for="email">Email <i style="color: #FD524E;">*</i></label>
+            <input type="text" id="email" [(ngModel)]="email" name="email" placeholder="Input Email" required>
+          </div>
+          <div>
+            <label for="gender">Gender <i style="color: #FD524E;">*</i></label>
+            <input type="text" id="gender" [(ngModel)]="gender" name="gender" placeholder="Choose Gender" required>
+          </div>
+          <a href="/user-management">
+            <button class="cancel">Cancel</button>
+          </a>
+          <button type="submit" class="submit-create">Submit</button>
+        </form>
+      </div>
+
+    </div>
+    <header class="header">USER MANAGEMENT</header>
+    <div class="sidebar">
+        <div class="logo">
+          <img class="logo" src="/assets/img/logo-dashboard.svg" alt="">
+        </div>
+        <ul>
+          <li><a href="/dashboard">Dashboard</a></li>
+          <h3>DATA</h3>
+          <li><a href="/user-management">Visualization</a></li>
+          <li><a href="/user-management">Case</a></li>
+          <li><a href="/user-management">Data Set</a></li>
+          <li><a href="/user-management" style="color: white;">Data Source</a></li>
+          <li><a href="/user-management">Connection</a></li>
+          <h3>ASSETS</h3>
+          <li><a href="/user-management">Icon</a></li>
+          <li><a href="/user-management">Image</a></li>
+          <h3>AUTHORIZATION</h3>
+          <li><a href="/user-management">Account</a></li>
+          <li><a href="/user-management">Role</a></li>
+          <li><a href="/user-management">Workspace</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div *ngIf="!isLogin">
+	<p>Please log in to access the dashboard.</p>
+</div>
+
